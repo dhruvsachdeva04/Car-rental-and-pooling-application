@@ -64,7 +64,7 @@ app.post("/cars", (req, res) => {
       //return res.status(500).json({ message: "Unsuccessful" });
     }
 
-    return res.json("hogya");
+    return res.json("success");
   });
 });
 
@@ -86,7 +86,7 @@ app.post("/cars_pool", (req, res) => {
   db.query(q, [values], (err, data) => {
     if (err) return res.json(err);
 
-    return res.json("hogya");
+    return res.json("success");
   });
 });
 
@@ -102,7 +102,7 @@ app.post("/feedback", (req, res) => {
   db.query(q, [values], (err, data) => {
     if (err) return res.json(err);
 
-    return res.json("hogya");
+    return res.json("success");
   });
 });
 
