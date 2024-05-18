@@ -1,0 +1,26 @@
+.cars-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .cars-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .car {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .car h2 {
+    margin-bottom: 10px;
+  }
+  
+  .car p {
+    margin-bottom: 5px;
+  }
+  

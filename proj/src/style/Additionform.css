@@ -1,0 +1,12 @@
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .form-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  

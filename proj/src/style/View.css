@@ -1,0 +1,47 @@
+
+
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .car {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .car h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .car p {
+    margin: 5px 0;
+  }
+  
+  .car span {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+ 
+  .cars {
+    max-height: calc(100vh - 100px); 
+    overflow-y: auto;
+  }
+  
+
+  .navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
